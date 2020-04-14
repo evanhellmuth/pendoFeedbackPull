@@ -1,0 +1,15 @@
+{
+  "name": "feedbackfrspluscomments",
+  "version": "1.0.0",
+  "description": "Get all Feature Requests and associated Comments for a Pendo Feedback instance. Output to featureRequestsAndComments.json",
+  "main": "getFeatureRequests.js",
+  "scripts": {
+    "getFRsAndComments": "node getFeatureRequestsAndComments.js"
+  },
+  "author": "Evan Hellmuth",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lodash": "^4.17.15"
+  }
+}
